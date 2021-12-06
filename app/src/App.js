@@ -10,6 +10,7 @@ const App = () => {
 
 	return (
 		<>
+			{console.log(process.env.REACT_APP_GOOGLE_API_KEY)}
 			<CssBaseline />
 			<Header />
 			<Grid container spacing={3} style={{ width: "100%" }}>
